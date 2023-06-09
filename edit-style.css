@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Sans-serif;
+}
+label{
+	color: #4d4d4d;
+}
+body{
+	padding-left: 4rem;
+	margin-top: 4rem;
+}
+.edit{
+	padding: 0 15px 0 15px;
+	font-weight: bold;
+	width: 5rem;
+	border: 2px solid grey;
+	border-radius: 3px;
+}
+.edit:hover{
+	border: 2px solid #0059b3;
+	background-color: white;
+}
+.delete{
+	color: darkred;
+}
+.delete:hover{
+	border: 2px solid darkred;
+}
+.cancel{
+	font-weight: normal;
+}
+.cancel:hover{
+	border-color: transparent;
+	background-color: lightgray;
+}
+form #update{
+	width: 25%;
+}
