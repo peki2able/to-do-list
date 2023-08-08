@@ -6,11 +6,11 @@
 					$host = 'localhost';
 					$db = 'to_do_list';
 				if($usertype == 'read'){
-					$user = 'listread';
-					$pass = 'plexBrachi';
+					$user = 'ur_username';
+					$pass = 'ur_pass';
 				}else if($usertype == 'write'){
-					$user = 'listwrite';
-					$pass = 'plexFoxer';
+					$user = 'ur_username';
+					$pass = 'ur_pass';
 				}else{
 					exit('Unrecognized connection type');
 				}
